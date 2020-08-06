@@ -3,6 +3,10 @@
 
 int main(){
 int i,num,h = 0,t = 0;
+char str[8];
+printf("Who are you?\n");
+scanf("%s,str");
+printf("Hello %s\n",str);
 printf("Tossing\n");
 for(i = 0;i < 3;i++){
 num=rand();
