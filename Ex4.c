@@ -16,5 +16,11 @@ t++;
 }
 }
 printf("H:%d T:%d",h,t);
+if(h>t){
+printf("You win");
+}
+else{
+printf("You lose");
+}
 return 0;
 }
